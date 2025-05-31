@@ -19,7 +19,7 @@ const ShipmentsPage: React.FC = () => {
     <Box p={4}>
       <Heading mb={4}>Shipments</Heading>
 
-      <HStack gap={4} mb={4}>
+      <HStack align="flex-end" gap={4} mb={4}>
         {/* 1️⃣ Use Chakra’s NativeSelect.Root + Field */}
         <Box>
           <Text fontSize="sm" mb={1}>
